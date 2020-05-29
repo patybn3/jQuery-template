@@ -1,10 +1,11 @@
 {
-  "name": "NH-Exteriors",
+  "name": "jQuery-template",
   "version": "1.0.0",
   "description": "- This is a free front-end template powered by jQuery, SASS, bootstrap, you can fork and clone this repository or you can follow the instructions to create your own template. - You can also visit [The HTML5 boilerplate website](https://html5boilerplate.com/) if you need another front-end template.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -e ejs,js"
   },
   "author": "Patricia Antlitz",
   "license": "MIT",
@@ -24,7 +25,9 @@
     "@popperjs/core": "^2.4.0",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "jquery": "^3.5.1",
+    "opn": "^6.0.0",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
@@ -46,6 +49,7 @@
     "node-sass": "^4.14.1",
     "on-build-webpack": "^0.1.0",
     "postcss-loader": "^3.0.0",
+    "reload": "^3.0.5",
     "sass": "^1.26.5",
     "sass-lint": "^1.13.1",
     "sass-loader": "^8.0.2",
