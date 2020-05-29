@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js -e ejs,js"
+    "start": "start nodemon index.js -e els,js,html,css,json & open http://localhost:8080"
   },
   "author": "Patricia Antlitz",
   "license": "MIT",
@@ -25,6 +25,7 @@
     "@popperjs/core": "^2.4.0",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.5.0",
+    "ejs": "^3.1.3",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "opn": "^6.0.0",
