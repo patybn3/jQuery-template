@@ -1,0 +1,12 @@
+
+.topnavbar {
+  background: linear-gradient(90deg, rgba(0, 196, 204, 0.6741071429) 0%, rgba(136, 184, 0, 0.8953956583) 46%, #05b405 100%);
+  height: 30px;
+  margin: auto;
+  margin-top: -10px;
+  margin-left: -8px;
+  position: fixed;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
