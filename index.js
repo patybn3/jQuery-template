@@ -8,11 +8,12 @@ const app = express()
 
 app.engine('html', require('ejs').renderFile)
 app.set('view engine', 'html')
-app.set('src', './src')
-app.use(express.static('src'))
+app.set('/', './')
+app.use(express.static('./'))
 
 app.get('/', (req, res) => res.render('index'))
 
+// localhost 8080
 const server = http.createServer(app)
 server.listen(8080, function() {
   console.log('Listening to port 8080...')
