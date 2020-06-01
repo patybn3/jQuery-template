@@ -15,8 +15,8 @@ app.get('/', (req, res) => res.render('index'))
 
 // localhost 8080
 const server = http.createServer(app)
-server.listen(8080, function() {
-  console.log('Listening to port 8080...')
+server.listen(3000, function() {
+  console.log('Listening to port 3000...')
 })
 
 // opn('http://localhost:8080')
